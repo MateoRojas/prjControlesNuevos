@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="prjControlesNuevos.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:prjControlesNuevos"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="98,75,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="267,75,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="428,75,0,0" VerticalAlignment="Top"/>
+        <InkToolbar HorizontalAlignment="Left" Margin="98,137,0,0" VerticalAlignment="Top"/>
+        <CalendarDatePicker HorizontalAlignment="Left" Margin="98,218,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="98,281,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="238,281,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="363,281,0,0" VerticalAlignment="Top"/>
+        <CommandBar>
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Accept" Label="AppBarButton"/>
+            <AppBarButton Icon="Cancel" Label="AppBarButton"/>
+        </CommandBar>
+
+    </Grid>
+</Page>
